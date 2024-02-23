@@ -10,7 +10,7 @@ struct ContentView: View {
     
     var body: some View {
         Text("Why not try…")
-               .font(.largeTitle.bold())
+            .font(.largeTitle.bold())
         Spacer()
         VStack(content: {
             Circle()
